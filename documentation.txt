@@ -1,0 +1,7 @@
+La pagina es Ford Italia 2023
+https://www.ford.it/#vans
+
+Upgrade:
+- leve animacion en botones y autos
+- Icons Lenguages
+- mejor interfaz en carrusel

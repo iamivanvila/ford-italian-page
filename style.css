@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Pathway+Extreme:wght@100&family=Poltawski+Nowy&family=Poppins:wght@200&display=swap");
+
+html {
+  font-family: "Mukta", sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
+  font-family: "Poltawski Nowy", serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 40px;
+}
+
+/* header */
+header {
+  position: fixed;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* header_menu */
+.nav-1 {
+  display: flex;
+  background-color: #fafafa;
+}
+.logo {
+  padding: 6px 100px;
+  width: 91px;
+}
+.header_menu {
+  width: 1150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+}
+.text {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.box_login img {
+  width: 20px;
+  padding: 0px 5px;
+}
+
+.box_login {
+  display: flex;
+  align-items: center;
+}
+.box_search img {
+  width: 20px;
+  padding: 0px 5px;
+}
+.box_search {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/* nav-2 */
+.nav-2 {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bar-2 {
+  margin: 30px 0px;
+}
+.box-2 {
+  padding: 0px;
+  margin: 0px;
+}
+.text-2 {
+  text-decoration: none;
+  color: #102b4e;
+  padding: 0px;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.split-2 {
+  padding: 0px 28px;
+  color: #fafafa;
+}
+
+/* window supply*/
+.supply{
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+  margin-bottom: 7px;
+  color: #fafafa;
+  width: 1395px;
+  background-color: #102b4e;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 50;
+}
+.link-supply-2{
+  color: #fafafa;
+  padding-left: 5px;
+}
+
+/* homepage-1 */
+main {
+  padding-top: 145px;
+}
+
+.homepage {
+  height: 616px;
+  width: 1440px;
+}
+.homepage-1 {
+  background: url(/img/homepage-1.jpeg);
+}
+.homepage-2 {
+  background: url(/img/homepage-2.jpeg);
+}
+.homepage-3 {
+  background: url(/img/homepage-3.jpeg);
+}
+.homepage-4 {
+  background: url(/img/homepage-4.jpeg);
+}
+.homepage-5 {
+  background: url(/img/homepage-5.jpeg);
+}
+.title-homepage {
+  padding: 100px 0px 0px 80px;
+  color: #fafafa;
+  font-size: 50px;
+  font-weight: 100;
+  font-stretch: semi-condensed;
+  letter-spacing: 2px;
+}
+.title-homepage strong {
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+}
+.subtitle-homepage {
+  padding: 50px 0px 0px 80px;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: semi-condensed;
+  letter-spacing: 2px;
+}
+
+.button {
+  margin-left: 80px;
+  margin-top: 17px;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 19px;
+  font-stretch: condensed;
+  letter-spacing: 1.5px;
+}
+
+.button-back-white {
+  border: 0px;
+  color: #102b4e;
+  background-color: #fafafa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-back-transparent {
+  background-color: transparent;
+  border-color: #fafafa;
+  color: #fafafa;
+  margin-left: 20px;
+}
+.button-back-blue {
+  color: #fafafa;
+  background-color: #2960a8;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 630px;
+  right: 35px;
+}
+.button img {
+  width: 25px;
+  padding-right: 15px;
+}
+.homepage-text-botton {
+  margin: 0px;
+  text-align: center;
+  color: rgb(67, 67, 67);
+  padding: 30px 0px;
+  letter-spacing: 1px;
+  word-spacing: 0.9;
+}
+.title-carousel {
+  color: #565b64;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 50px;
+  font-weight: 50;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+.button-info {
+  background-color: #fafafa;
+  color: #000000;
+  border: 0px;
+  padding: 20px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  
+}
+
+.box-options {
+  background-color: #102b4e;
+  height: 200px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.box-options a {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  text-decoration: none;
+}
+.box-options a:hover {
+  text-decoration: underline;
+}
+.box-options a img {
+  width: 20px;
+  padding-left: 10px;
+}
